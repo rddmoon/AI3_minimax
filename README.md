@@ -6,7 +6,7 @@
   ``` 
   int board[9] = {0,0,0,0,0,0,0,0,0}; 
   ```
-  Fungsi fill merupakan fungsi untuk mengisi lambang X dan atau O pada board jika player memilih menjadi O. Fungsi fill mengembalikan lambang yang cocok untuk state board saat ini. Player dilambangkan '-1' dan computer '1', jika pada board di sel nomor 1 memiliki nilai '1' maka fungsi fill mengembalikan nilai 'X' untuk di tampilkan sebagai isi board.
+  Fungsi fill merupakan fungsi untuk mengisi lambang 'X' dan atau 'O' pada board jika player memilih menjadi O. Fungsi fill mengembalikan lambang yang cocok untuk state board saat ini. Player dilambangkan '-1' dan computer '1', jika pada board di sel nomor 1 memiliki nilai '1' maka fungsi fill mengembalikan nilai 'X' untuk di tampilkan sebagai isi board.
   ```
   char fill(int i) {
     switch(i) {
